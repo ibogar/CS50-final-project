@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Mynerve&family=Zeyada&display=swap');
+
+:root {
+    --main-color: #1B1B3A;
+    --highlights-color: #2E2E61;
+    --title-font-color: #ED7D3A;
+    --title-font: 'Mynerve', cursive;
+    --texts-font: 'Zeyada', cursive;
+    --bs-primary-rgb: 27, 27, 58;
+    
+}
+
+body {
+    background-color: var(--main-color);
+}
+
+header {
+    background-color: var(--highlights-color);
+    margin-bottom: 0.5rem;
+}
+
+.navbar-nav {
+    padding-left: 2rem;
+}
+
+.nav-link {
+    font-family: var(--texts-font);
+    font-size: 1.5rem;
+    color: var(--title-font-color);
+}
+
+.nav-pills .nav-link {
+    border: 0.1rem;
+    border-color: #ED7D3A;
+    border-style: solid;
+    margin: 0.5rem;
+}
+
+.nav-pills .nav-link.active {
+    --bs-nav-pills-link-active-bg: #2E2E61;
+    color: var(--title-font-color);
+}
+
+.page-title {
+    color: var(--title-font-color);
+    font-family: var(--title-font);
+}
